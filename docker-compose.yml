@@ -1,0 +1,9 @@
+version: '3.7'
+services:
+  recommender:
+    container_name: recommender
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "6000:6000"
