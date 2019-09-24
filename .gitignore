@@ -1,5 +1,6 @@
 *.pyc
 ml_models/*
 datasets/*
-!ml_models/.keep
+!ml_models/tfidf/.keep
+!ml_models/svd/.keep
 !datasets/.keep

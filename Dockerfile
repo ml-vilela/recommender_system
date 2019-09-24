@@ -11,8 +11,6 @@ RUN python scripts/generators/generate_datasets.py
 RUN python scripts/train/content_filtering.py
 RUN python scripts/train/collaborative_filtering.py
 
-COPY ./ml_models /app/ml_models
-
 ENTRYPOINT ["python"]
 
 CMD ["app.py"]
